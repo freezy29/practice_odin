@@ -4,8 +4,11 @@
 }
 .main-header {
   background-color: #1f2937;
-  padding: 0 15rem 100px;
+  padding: 0 5rem 100px;
   justify-content: center;
+}
+ul{
+  list-style: none;
 }
 .header {
   display: flex;
@@ -22,7 +25,6 @@
   color: #e5e7eb;
   display: flex;
   gap: 15px;
-  list-style: none;
 }
 .main-text-box {
   margin-right: auto;
@@ -39,8 +41,9 @@
   font-size: 18px;
   color: #e5e7eb;
 }
-.image-main{
-    margin-left:10%;
+.image-main {
+  margin-left: 10%;
+  align-items: flex-end;
 }
 .signup {
   color: #fff;
@@ -51,4 +54,25 @@
   text-align: center;
   width: 150px;
   height: 40px;
+}
+.image-gallery, img{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+
+}
+.body-one{
+  border: #1F2937 solid;
+  margin-bottom: 80px;
+}
+.image-gallery img{
+  border: solid 2px #3882f6 ;
+  
+}
+.title{
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
 }
